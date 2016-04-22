@@ -1,0 +1,142 @@
+*{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+body,ul,li,h1{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+h1{
+	font-size: 60px;
+	color: #333;
+}
+.head{
+	height: 40px;
+	background-color: #191919;
+}
+.head div{
+	height: 100%;
+}
+.head .a1{
+	line-height: 40px;
+	padding-left: 25px; 
+}
+.a1 a{
+	color: #888;
+	display: block;
+	padding-left: 16px;
+	padding-right: 16px;
+	float: left;
+	font-size: 14px;
+}
+.a1 a:hover{
+	color: #fff;
+}
+.a1 a:hover .jiantou{
+	border-top: 4px solid #fff;
+}
+.a1 a b{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	vertical-align: middle;
+	border-top: 4px solid #888;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	content: "";
+}
+.head .a3{
+	margin-left: -35px; 
+}
+.a3 .eml,.a3 .pwd{
+	width: 156px;
+	height: 30px;
+	border: 0;
+	border-radius: 3px;
+	line-height: 30px;
+	margin-top:5px; 
+}
+input[type="text"],input[type="password"]{
+	padding-left: 6px;
+}
+.a3 .btn{
+	width: 70px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 3px;
+	border: 1px solid #eee;
+	background: linear-gradient(#FBFBFB,#EAEAEA);
+	cursor: pointer;
+}
+.a3 .btn:hover{
+	background: #EAEAEA;
+}
+.con{
+	height:auto;
+	padding-top: 78px;
+	padding-bottom: 70px;
+	padding-left: 56px;
+	background-color: #eee;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+.con p{
+	margin-top: -2px;
+	line-height: 30px;
+}
+.more{
+	width: 145px;
+	height: 45px;
+	background: linear-gradient(#0075CC,#004bcc);
+	box-shadow: 0px 2px 5px #339FD6 inset;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	font-size: 18px;
+}
+.more:hover{
+	background: #004bcc;
+}
+h2{
+	font-size: 30px;
+	color: #333;
+}
+.cons{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #eee;
+}
+.cons .row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.row .con1{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+}
+.details{
+	width: 112px;
+	height: 28px;
+	border: 1px solid #eee;
+	background: linear-gradient(#FBFBFB,#EAEAEA);
+	border-radius: 3px;
+	color: #333;
+	text-align: center;
+	line-height: 28px;
+	font-size: 14px;
+}
+.details:hover{
+	background: #EAEAEA;
+}
+.foot{
+	font-size: 14px;
+	color: #333;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}

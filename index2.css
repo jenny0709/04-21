@@ -1,0 +1,158 @@
+body,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+*{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.head{
+	height: 40px;
+	background-color: #191919;
+}
+.head div{
+	height: 100%;
+}
+.head .row{
+	margin-left: 0px;
+}
+.head .row .a1{
+	padding-left: 0px;
+}
+.head .a1{
+	line-height: 40px;
+}
+.a1 a{
+	color: #888;
+	display: block;
+	padding-left: 16px;
+	padding-right: 16px;
+	float: left;
+	font-size: 14px;
+}
+.a1 a:hover{
+	color: #fff;
+}
+.row .a3{
+	padding-left: 40px;
+	padding-right: 0;
+}
+.a3 span,.a3 a{
+	line-height: 40px;
+	float: left;
+	color: #888;
+}
+.a3 a:hover{
+	text-decoration: underline;
+	color: #fff;
+}
+.con-box{
+	margin-top: 20px;
+	height:auto;
+}
+.con-box .row{
+	margin-left: 0;
+	margin-right: 0;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #eee;
+}
+.row .col-lg-3{
+	padding-left: 0px;
+	margin-bottom: 20px;
+}
+.left-box{
+	height:452px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	border: 1px solid #E3E3E3;
+}
+.left-box .list{
+	padding-top: 10px;
+}
+.left-box .title{
+	color: #888;
+	padding: 3px 15px;
+	font-size: 11px;
+	line-height: 20px;
+}
+.left-box .list a{
+	display: block;
+	padding:5px 15px;
+	color: #0088CC;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row .right-box{
+	height:auto;
+	padding-left: 40px;
+}
+.row .con{
+	height:auto;
+	padding-top: 24px;
+	padding-bottom: 70px;
+	padding-left: 60px;
+	background-color: #eee;
+	border-radius: 5px;
+}
+.con p{
+	margin-top: -2px;
+	line-height: 30px;
+}
+.more{
+	width: 145px;
+	height: 45px;
+	background: linear-gradient(#0075CC,#004bcc);
+	box-shadow: 0px 2px 5px #339FD6 inset;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	font-size: 18px;
+}
+.more:hover{
+	background: #004bcc;
+}
+h1{
+	font-size: 60px;
+	color: #333;
+}
+.row .con1{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+}
+.details{
+	width: 112px;
+	height: 28px;
+	border: 1px solid #eee;
+	background: linear-gradient(#FBFBFB,#EAEAEA);
+	border-radius: 3px;
+	color: #333;
+	text-align: center;
+	line-height: 28px;
+	font-size: 14px;
+}
+.details:hover{
+	background: #EAEAEA;
+}
+.foot{
+	font-size: 14px;
+	color: #333;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}

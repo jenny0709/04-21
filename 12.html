@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>12栅格化</title>
+	<link rel="stylesheet" href="12.css">
+	<style>
+	.red{
+		border:1px solid red;
+	}
+	.green{
+		border: 1px solid green;
+	}
+	.blue{
+		border:1px solid blue;
+	}
+	.black{
+		border: 1px solid black;
+	}
+	.h300{
+		height:300px;
+	}
+	</style>
+</head>
+<body>
+	<div class="container black h300">
+		<div class="col-lg-4 col-md-3 fl red h300">01</div>
+		<div class="col-lg-4 col-md-3 fl green h300">02</div>
+		<div class="col-lg-4 col-md-3 fl blue h300">03</div>
+		<div class="col-md-3 fl red h300 hidden-lg">04</div>
+	</div>
+	<div class="container-fluid black h300">
+		<div class="col-lg-4 col-md-3 fl red h300">01</div>
+		<div class="col-lg-4 col-md-3 fl green h300">02</div>
+		<div class="col-lg-4 col-md-3 fl blue h300">03</div>
+		<div class="col-md-3 fl red h300 hidden-lg">04</div>
+	</div>
+</body>
+</html>
