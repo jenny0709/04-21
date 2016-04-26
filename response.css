@@ -1,4 +1,4 @@
-*{
+﻿a*{
 	box-sizing:border-box;
 }
 .container{
@@ -17,8 +17,8 @@
 }
 .container .row,.container-fluid .row{
 	display: block;
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: -15px;
+	margin-right: -15px;
 }
 .container .row:after,.container-fluid .row:after{
 	content: "";
